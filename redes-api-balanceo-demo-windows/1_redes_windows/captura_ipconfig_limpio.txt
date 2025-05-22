@@ -1,0 +1,71 @@
+# Salida de comandos de red en Windows
+# Algunos datos personales como IPs y direcciones MAC han sido ocultados por privacidad
+
+Configuración IP de Windows
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . : 
+   Dirección IPv6 . . . . . . . . . . : [OCULTO]
+   Dirección IPv6 temporal. . . . . . : [OCULTO]
+   Vínculo: dirección IPv6 local. . . : [OCULTO]
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.XXX
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+===========================================================================
+
+Lista de interfaces
+  7...[OCULTO]......Intel(R) Ethernet Connection (2) I219-V
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Tabla de enrutamiento
+===========================================================================
+
+Rutas activas:
+Destino de red        Máscara de red   Puerta de enlace   Interfaz        Métrica
+          0.0.0.0          0.0.0.0      192.168.0.1        192.168.0.XXX      35
+        127.0.0.0        255.0.0.0      En vínculo          127.0.0.1        331
+        127.0.0.1  255.255.255.255      En vínculo          127.0.0.1        331
+  127.255.255.255  255.255.255.255      En vínculo          127.0.0.1        331
+      192.168.0.0    255.255.255.0      En vínculo        192.168.0.XXX     291
+    192.168.0.255  255.255.255.255      En vínculo        192.168.0.XXX     291
+        224.0.0.0        240.0.0.0      En vínculo          127.0.0.1        331
+        224.0.0.0        240.0.0.0      En vínculo        192.168.0.XXX     291
+  255.255.255.255  255.255.255.255      En vínculo          127.0.0.1        331
+  255.255.255.255  255.255.255.255      En vínculo        192.168.0.XXX     291
+
+Rutas persistentes:
+  Ninguno
+
+IPv6 Tabla de enrutamiento
+===========================================================================
+
+Rutas activas:
+ Cuando destino de red      Métrica    Puerta de enlace
+  7        ::/64               291       En vínculo
+  1        ::1/128             331       En vínculo
+  7        [OCULTO]/128        291       En vínculo
+  7        [OCULTO]/128        291       En vínculo
+  7        fe80::/64           291       En vínculo
+  7        [OCULTO]/128        291       En vínculo
+  1        ff00::/8            331       En vínculo
+  7        ff00::/8            291       En vínculo
+
+Rutas persistentes:
+  Ninguno
+
+---
+
+# Prueba de conectividad (ping a Google DNS)
+
+Haciendo ping a 8.8.8.8 con 32 bytes de datos:
+Respuesta desde 8.8.8.8: bytes=32 tiempo=58ms TTL=113  
+Respuesta desde 8.8.8.8: bytes=32 tiempo=53ms TTL=113  
+Respuesta desde 8.8.8.8: bytes=32 tiempo=50ms TTL=113  
+Respuesta desde 8.8.8.8: bytes=32 tiempo=49ms TTL=113  
+
+Estadísticas de ping para 8.8.8.8:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0 (0% perdidos)
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 49ms, Máximo = 58ms, Media = 52ms
