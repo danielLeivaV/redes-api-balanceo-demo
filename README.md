@@ -11,8 +11,9 @@ Este repositorio contiene dos entornos de ejemplo diseñados para demostrar cono
 
 ## 📂 Estructura del repositorio
 
-- `redes-api-balanceo-demo-ubuntu/`: Scripts y ejemplos para entorno Linux (Ubuntu)
-- `redes-api-balanceo-demo-windows/`: Scripts y ejemplos adaptados a entorno Windows con PowerShell
+- [`redes-api-balanceo-demo-ubuntu/`](https://github.com/danielLeivaV/redes-api-balanceo-demo/tree/main/redes-api-balanceo-demo-ubuntu): Scripts y ejemplos para entorno Linux (Ubuntu)
+- [`redes-api-balanceo-demo-windows/`](https://github.com/danielLeivaV/redes-api-balanceo-demo/tree/main/redes-api-balanceo-demo-windows): Scripts y ejemplos adaptados a entorno Windows con PowerShell
+
 
 Cada entorno incluye archivos de configuración, scripts de prueba y comandos comentados para facilitar la comprensión.
 
